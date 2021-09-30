@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+    p {
+        font-family: 'Amatic SC', cursive;
+        font-family: 'Lato', sans-serif;
+    }
+
+#navbar {
+    display: flex;   
+    align-items: center;
+    justify-content: space-between;
+    background-color:pink;
+    height: 2.5em;
+    color: white;
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+   }
+
+a {
+    text-decoration: none;
+    color: black;
+   }  
+
+#navbar h1 {
+        font-size: 4em;
+       color: white;
+   }
+
+img {
+    width: 100%;
+}
+
+.gmap_canvas {
+    align-items: center;
+}
+
+header {
+    margin-bottom: 5em;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+ }
+
+ li:hover {
+    background-color: #206559;
+ }
+
+ #navbar li {
+     color: white;
+     font-size: 1.5em;
+ }
+
+header ul li {
+    margin-right: 1em;
+}
+
+.holadia {
+    text-align: center;
+    display: grid;
+    background-image: url("./photos/flower2.jpg");
+    line-height: 10%;
+    padding: 15%;
+    font-size: 2em;
+
+}
+
+#location div:third-child {
+    width: 30%;
+}
+
+.holadia button {
+    background-color: pink;
+    border: none;
+    color:rgb(11, 89, 11);
+    padding: 5px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px 10px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+button:hover {
+    background-color: #206559;
+
+}
+
+#location {
+    color: rgb(19, 18, 18);
+    align-items: center;
+    padding-bottom: 5em;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.3em;
+    font-size: 1.3em;
+ }
+
+ #location .gmap_canvas {
+     align-items: center;
+     margin: 0% auto;
+ }
+
+ #gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    margin: 0 15%;
+    background-color:#206559;
+    width: auto;
+    line-height: 1.3em;
+ }
+
+ #gallery div:first-child {
+    grid-column: 1/-1;
+    text-align: center;
+ }
+
+ .lastphoto {
+        grid-column: 1 / 4;
+        grid-row: 4 / 6;
+ }
+
+
+ #coffee {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    margin: 0 15%;
+    margin-top: 20%;
+    background-color: #206559;
+    line-height: 1.3em;
+ }
+
+#coffee div:first-child {
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+#coffee h1 {
+    text-align: center;
+}
+
+#testimonials {
+    display: grid;
+    grid-template-columns: repeat(2, .5fr);
+    gap: 1em;
+    margin: 0 25%;
+    margin-top: 13%;
+    line-height: 1.3em;
+ }
+
+#testimonials div:first-child {
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+footer {
+    font-size: small;
+    text-align: center;
+    background-color: #206559;
+    padding: 1.1rem;
+    line-height: 3%;
+}
+
